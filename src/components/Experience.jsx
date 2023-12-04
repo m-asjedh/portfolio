@@ -4,10 +4,11 @@ import css from "../assets/css.png";
 import reactImage from "../assets/react.png";
 import vite from "../assets/vite.jpeg";
 import c from "../assets/c.jpeg";
-import cplus from "../assets/c++.jpg";
+import java from "../assets/java.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import javascript from "../assets/javascript.png";
+import mysql from "../assets/mysql.png";
 
 const Experience = () => {
   const techs = [
@@ -37,8 +38,8 @@ const Experience = () => {
     },
     {
       id: 5,
-      src: vite,
-      title: "Vite",
+      src: mysql,
+      title: "My SQL",
       style: "shadow-white",
     },
     {
@@ -49,8 +50,8 @@ const Experience = () => {
     },
     {
       id: 7,
-      src: cplus,
-      title: "C ++",
+      src: java,
+      title: "Java",
       style: "shadow-green-400",
     },
     {
@@ -70,7 +71,7 @@ const Experience = () => {
   return (
     <div
       name="experince"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen "
+      className="bg-gradient-to-b pt-[120px] from-gray-800 to-black w-full h-screen "
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
