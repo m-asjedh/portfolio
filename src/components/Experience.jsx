@@ -2,7 +2,7 @@ import React from "react";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import reactImage from "../assets/react.png";
-import vite from "../assets/vite.jpeg";
+
 import c from "../assets/c.jpeg";
 import java from "../assets/java.png";
 import github from "../assets/github.png";
