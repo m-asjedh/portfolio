@@ -38,23 +38,13 @@ const NavBar = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
+            className="px-4 cursor-pointer capitalize text-xl font-medium text-gray-500 hover:scale-105 duration-200"
           >
             <Link to={link} smooth duration={500}>
               {link}
             </Link>
           </li>
         ))}
-        <li className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">
-          <a
-            href="https://drive.google.com/file/d/1c3WZtp-v5DfKTS1PDfuQgsBzXNq5z0Bl/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-            download={true}
-          >
-            Portfolio
-          </a>
-        </li>
       </ul>
 
       <div
@@ -81,16 +71,6 @@ const NavBar = () => {
               </Link>
             </li>
           ))}
-          <li className="px-4 cursor-pointer capitalize py-6 text-2xl">
-            <a
-              href="https://drive.google.com/file/d/1c3WZtp-v5DfKTS1PDfuQgsBzXNq5z0Bl/view?usp=sharing"
-              target="_blank"
-              rel="noreferrer"
-              download={true}
-            >
-              Portfolio
-            </a>
-          </li>
         </ul>
       )}
     </div>
