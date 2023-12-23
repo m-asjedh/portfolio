@@ -6,49 +6,76 @@ const About = () => {
       name="about"
       className="w-full pt-[120px] bg-gradient-to-b from-gray-800 to-black text-white"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            About
-          </p>
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col md:flex-row justify-between">
+        <div className="md:w-1/2 h-full flex flex-col justify-between">
+          <div className="pb-8">
+            <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+              About
+            </p>
+          </div>
+          {/* Details Section */}
+          <div className="mt-8">
+            <p className="text-2xl font-bold mb-2">Info</p>
+            <table className="table-auto text-left ">
+              <tbody>
+                <tr>
+                  <td className="pr-4">Type:</td>
+                  <td>Web Development</td>
+                </tr>
+                <tr>
+                  <td className="pr-4">Birthday:</td>
+                  <td>6 June 2002</td>
+                </tr>
+                <tr>
+                  <td className="pr-4">Phone:</td>
+                  <td>+9474 1146 366</td>
+                </tr>
+                <tr>
+                  <td className="pr-4">City:</td>
+                  <td>Colombo, Sri Lanka</td>
+                </tr>
+                <tr>
+                  <td className="pr-4">Career Status:</td>
+                  <td>Student</td>
+                </tr>
+                <tr>
+                  <td className="pr-4">Age:</td>
+                  <td>21</td>
+                </tr>
+                <tr>
+                  <td className="pr-4">Education Level:</td>
+                  <td>HND in IT</td>
+                </tr>
+                <tr>
+                  <td className="pr-4">Email:</td>
+                  <td>masjedh.dev@gmail.com</td>
+                </tr>
+                <tr>
+                  <td className="pr-4">Freelance:</td>
+                  <td>Available</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-        <p className="text-base mt-10">
-          As a determined undergraduate student at SLIIT, I am deeply engaged in
-          my pursuit of a Bachelor of Science degree with a specialization in
-          Computer Science and Software Engineering. Over the course of my
-          academic journey, I've honed a diverse skillset, encompassing
-          technical proficiency in areas such as programming, software
-          applications, and data analysis, alongside well-developed
-          problem-solving, time management, and communication skills.
-          Collaborative projects and extracurricular activities have cultivated
-          my ability to work effectively in teams. My personal characteristics
-          are marked by unwavering dedication to academic and personal growth,
-          adaptability to evolving circumstances, a relentless curiosity,
-          resilience in the face of challenges, and a penchant for leadership
-          roles within student organizations and clubs. Looking ahead, my future
-          goals involve not only completing my degree with honors but also
-          delving into postgraduate studies, advancing my career in a rewarding
-          and challenging software engineering, contributing to research
-          endeavors, and giving back to the community by mentoring and sharing
-          knowledge with aspiring students, thereby striving for a positive
-          impact on both my field and society as a whole.
-        </p>
 
-        <br />
-
-        <p className="text-base">
-          In addition to my academic pursuits, I am actively seeking
-          opportunities to apply my skills and knowledge in a professional
-          setting. I am eager to secure a job that aligns with my field of study
-          and provides me with the chance to put my abilities to practical use.
-          This job search is not just about entering the workforce but also a
-          crucial step towards achieving my career aspirations. I am
-          enthusiastic about the prospect of contributing to a dynamic
-          organization, taking on new challenges, and further developing my
-          expertise in Software Engineering. My job search is a vital part of my
-          overall journey, and I am committed to finding a role where I can make
-          a meaningful impact and continue my personal and professional growth.
-        </p>
+        {/* Skills Section */}
+        <div className="md:w-1/2 flex flex-col justify-between m-32">
+          <div>
+            <p className="text-2xl font-bold mb-2">Skills</p>
+            <ul className="list-disc pl-6 ">
+              <li>Back-End Web Development</li>
+              <li>Front-End Development</li>
+              <li>Object-Oriented Programming</li>
+              <li>Data Structures and Algorithms</li>
+              <li>Problem Solving Skills</li>
+              <li>Critical Thinking</li>
+              <li>Fluent English</li>
+              <li>Fast Leaner</li>
+              <li>Freindly</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );

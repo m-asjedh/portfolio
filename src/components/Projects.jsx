@@ -24,32 +24,32 @@ const Projects = () => {
       id: 3,
       src: furnitureCom,
       title: "Web",
-      githubLink: "https://github.com/your-username/furniture-project",
+      githubLink: "https://lanakashoes.netlify.app/",
     },
     {
       id: 4,
       src: resturantSystem,
       title: "System",
-      githubLink: "https://github.com/your-username/restaurant-system",
+      githubLink: "https://lanakservices.netlify.app/",
     },
     {
       id: 5,
       src: jobNest,
       title: "Web",
-      githubLink: "https://github.com/your-username/jobnest-project",
+      githubLink: "https://job-nest.netlify.app/",
     },
     {
       id: 6,
       src: portfolio,
       title: "Web",
-      githubLink: "https://github.com/m-asjedh/portfolio",
+      githubLink: "https://asjedh.netlify.app/",
     },
   ];
 
   return (
     <div
       name="projects"
-      className="bg bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen pt-[120px]"
+      className="bg bg-gradient-to-b from-black to-gray-800 w-full text-white  pt-[120px]"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -74,7 +74,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="bg-blue-500 hover:bg-blue-700 text-white font-bold text-xs py-1 px-2 rounded duration-200 transform hover:scale-105"
                 >
-                  View Code
+                  View
                 </a>
               </div>
             </div>

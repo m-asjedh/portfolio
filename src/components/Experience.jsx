@@ -9,6 +9,9 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import javascript from "../assets/javascript.png";
 import mysql from "../assets/mysql.png";
+import nodejs from "../assets/nodejs-1-logo.png";
+import expressjs from "../assets/express.png";
+import springboot from "../assets/springboot.png";
 
 const Experience = () => {
   const techs = [
@@ -44,24 +47,42 @@ const Experience = () => {
     },
     {
       id: 6,
+      src: nodejs,
+      title: "NodeJs",
+      style: "shadow-green-400",
+    },
+    {
+      id: 7,
+      src: expressjs,
+      title: "ExpressJs",
+      style: "shadow-yellow-400",
+    },
+    {
+      id: 8,
+      src: springboot,
+      title: "Springboot",
+      style: "shadow-red-400",
+    },
+    {
+      id: 9,
       src: c,
       title: "C",
       style: "shadow-pink-400",
     },
     {
-      id: 7,
+      id: 10,
       src: java,
       title: "Java",
       style: "shadow-green-400",
     },
     {
-      id: 8,
+      id: 11,
       src: github,
       title: "Github",
       style: "shadow-gray-500",
     },
     {
-      id: 9,
+      id: 12,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-blue-400",
@@ -71,7 +92,7 @@ const Experience = () => {
   return (
     <div
       name="experince"
-      className="bg-gradient-to-b pt-[120px] from-gray-800 to-black w-full h-screen "
+      className="bg-gradient-to-b pt-[120px] from-gray-800 to-black w-full  "
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
