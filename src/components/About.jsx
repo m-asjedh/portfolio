@@ -60,7 +60,7 @@ const About = () => {
         </div>
 
         {/* Skills Section */}
-        <div className="md:w-1/2 flex flex-col justify-between m-32">
+        <div className="md:w-1/2 flex flex-col justify-between m-28">
           <div>
             <p className="text-2xl font-bold mb-2">Skills</p>
             <ul className="list-disc pl-6 ">

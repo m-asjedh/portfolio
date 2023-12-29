@@ -1,34 +1,34 @@
 import React from "react";
-import movie from "../assets/movie.png";
-import fashionCom from "../assets/fashionCom.png";
-import furnitureCom from "../assets/furnitureCom.jpg";
-import resturantSystem from "../assets/resturantSystem.jpg";
-import jobNest from "../assets/jobNest.webp";
-import portfolio from "../assets/portfolio.jpeg";
+import movie from "../assets/lankacinema.png";
+import ecommerce1 from "../assets/lankaeats.png";
+import ecommerce2 from "../assets/lankahomes.png";
+import ecommerce3 from "../assets/lankashoes.png";
+import system1 from "../assets/lankaservices.png";
+import jobNest from "../assets/jobnest.png";
 
 const Projects = () => {
   const portfolios = [
     {
       id: 1,
-      src: movie,
+      src: ecommerce1,
       title: "Web",
-      githubLink: "",
+      githubLink: "https://lankaeats.netlify.app/",
     },
     {
       id: 2,
-      src: fashionCom,
-      title: "Mobile",
-      githubLink: "https://github.com/your-username/fashion-project",
-    },
-    {
-      id: 3,
-      src: furnitureCom,
+      src: ecommerce3,
       title: "Web",
       githubLink: "https://lanakashoes.netlify.app/",
     },
     {
+      id: 3,
+      src: movie,
+      title: "Web",
+      githubLink: "https://lankacinema.netlify.app/",
+    },
+    {
       id: 4,
-      src: resturantSystem,
+      src: system1,
       title: "System",
       githubLink: "https://lanakservices.netlify.app/",
     },
@@ -40,9 +40,9 @@ const Projects = () => {
     },
     {
       id: 6,
-      src: portfolio,
+      src: ecommerce2,
       title: "Web",
-      githubLink: "https://asjedh.netlify.app/",
+      githubLink: "file:///D:/CAMPUS/Y1S2/WAD/WAD%20Website/index.html",
     },
   ];
 
