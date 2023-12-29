@@ -43,8 +43,11 @@ const About = () => {
                   <td>21</td>
                 </tr>
                 <tr>
-                  <td className="pr-4">Education Level:</td>
-                  <td>HND in IT</td>
+                  <td className="pr-4">Education:</td>
+                  <td className="whitespace-nowrap">
+                    B.Sc. (Hons) Computer Science and Software Engineering
+                    (Reading)
+                  </td>
                 </tr>
                 <tr>
                   <td className="pr-4">Email:</td>
