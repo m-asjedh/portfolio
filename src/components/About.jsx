@@ -35,8 +35,8 @@ const About = () => {
                   <td>Colombo, Sri Lanka</td>
                 </tr>
                 <tr>
-                  <td className="pr-4">Career Status:</td>
-                  <td>Student</td>
+                  <td className="pr-4">Status:</td>
+                  <td>Undergraduate</td>
                 </tr>
                 <tr>
                   <td className="pr-4">Age:</td>
@@ -53,10 +53,7 @@ const About = () => {
                   <td className="pr-4">Email:</td>
                   <td>masjedh.dev@gmail.com</td>
                 </tr>
-                <tr>
-                  <td className="pr-4">Freelance:</td>
-                  <td>Available</td>
-                </tr>
+            
               </tbody>
             </table>
           </div>
