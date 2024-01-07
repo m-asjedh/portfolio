@@ -9,6 +9,7 @@ import ecommerce3 from "../assets/lankashoes.png";
 import system1 from "../assets/lankaservices.png";
 import jobNest from "../assets/jobnest.png";
 import etf from "../assets/etfproject.png";
+import portfolio from "../assets/portfolio.png";
 import p1 from "../assets/p1.png";
 import p2 from "../assets/p2.png";
 import p3 from "../assets/p3.png";
@@ -200,6 +201,26 @@ const Projects = () => {
     },
     {
       id: 7,
+      src: portfolio,
+      title: "Personal Portfolio",
+      githubLink: "https://github.com/m-asjedh/portfolio",
+      details: (
+        <div className="flex justify-center">
+          <img
+            src={p2}
+            alt="Project Screenshot 2"
+            className="w-1/8 mx-2 rounded"
+          />
+          <img
+            src={p5}
+            alt="Project Screenshot 2"
+            className="w-1/8 mx-2 rounded"
+          />
+        </div>
+      ),
+    },
+    {
+      id: 8,
       src: ecommerce2,
       title: "Furniture Web Application",
       githubLink: "file:///D:/CAMPUS/Y1S2/WAD/WAD%20Website/index.html",
